@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30626.31
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BraceAnalyzer", "BraceAnalyzer\BraceAnalyzer\BraceAnalyzer.csproj", "{67351538-C201-425C-9096-CE6D220F9B18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BraceAnalyzer.CodeFixes", "BraceAnalyzer\BraceAnalyzer.CodeFixes\BraceAnalyzer.CodeFixes.csproj", "{5D0C8FF1-E26E-4103-8007-3AB8D3DBF814}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BraceAnalyzer.Package", "BraceAnalyzer\BraceAnalyzer.Package\BraceAnalyzer.Package.csproj", "{88ADB4C4-ED3C-4123-879F-4DA2C88F259B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BraceAnalyzer.Test", "BraceAnalyzer\BraceAnalyzer.Test\BraceAnalyzer.Test.csproj", "{1C7C846E-DABD-4981-A547-F6D7188F0E0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BraceAnalyzer.Vsix", "BraceAnalyzer\BraceAnalyzer.Vsix\BraceAnalyzer.Vsix.csproj", "{52E323D6-DE8E-4147-BDB0-C4152C3D97ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67351538-C201-425C-9096-CE6D220F9B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67351538-C201-425C-9096-CE6D220F9B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67351538-C201-425C-9096-CE6D220F9B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67351538-C201-425C-9096-CE6D220F9B18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D0C8FF1-E26E-4103-8007-3AB8D3DBF814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D0C8FF1-E26E-4103-8007-3AB8D3DBF814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D0C8FF1-E26E-4103-8007-3AB8D3DBF814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D0C8FF1-E26E-4103-8007-3AB8D3DBF814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88ADB4C4-ED3C-4123-879F-4DA2C88F259B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88ADB4C4-ED3C-4123-879F-4DA2C88F259B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88ADB4C4-ED3C-4123-879F-4DA2C88F259B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88ADB4C4-ED3C-4123-879F-4DA2C88F259B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C7C846E-DABD-4981-A547-F6D7188F0E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C7C846E-DABD-4981-A547-F6D7188F0E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C7C846E-DABD-4981-A547-F6D7188F0E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C7C846E-DABD-4981-A547-F6D7188F0E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52E323D6-DE8E-4147-BDB0-C4152C3D97ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E323D6-DE8E-4147-BDB0-C4152C3D97ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E323D6-DE8E-4147-BDB0-C4152C3D97ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E323D6-DE8E-4147-BDB0-C4152C3D97ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {444B360A-C4A2-47F7-AFAC-4294CD36C411}
+	EndGlobalSection
+EndGlobal
